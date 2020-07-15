@@ -1,0 +1,109 @@
+/* 
+*   CSS for Login Page.
+*/
+
+/* 1. LOGIN HEADING SECTION. */
+.layout-main .login-heading {
+    width: 60%;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    text-align: center;
+}
+
+/* 2. LOGIN FORM SECTION. */
+.layout-main .login-form {
+    width: 60%;
+    height: 60%;
+    border: 5px double #333333;
+    background-color: #ffffff;
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 20%;
+    right: 20%;
+}
+.layout-main .login-form.hide {
+    display: none;
+}
+.layout-main .login-form p {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+.layout-main .login-form form {
+    padding: 5%;
+}
+.layout-main .login-form form .form-group {
+    width: 100%;
+    min-height: 80px;
+    text-align: center;
+}
+.layout-main .login-form form .form-group label,
+.layout-main .login-form form .form-group input {
+    display: inline;
+}
+.layout-main .login-form form .form-group label {
+    width: 30%;
+    padding-right: 5%;
+    font-size: 16px;
+    font-weight: bold;
+}
+.layout-main .login-form form .form-group input {
+    width: 60%;
+    width: 35px;
+    width: 300px;
+    border: 2px solid #333333;
+}
+.layout-main .login-form form .form-group input.error {
+    border-color: #ff0000;
+}
+.layout-main .login-form form .form-group small.error-msg {
+    display: block;
+    color: #ff0000;
+    font-size: 12px;
+    font-weight: bold;
+    padding-top: 1%;
+}
+.layout-main .login-form form .form-group small.error-msg.hidden {
+    display: none;
+}
+
+/* 
+* LOGIN ERROR SECTION.
+*/
+.layout-main .error-display {
+    width: 60%;
+    height: 30%;
+    border: 5px double #ff0000;
+    background-color: lightgray;
+    padding: 5%;
+    position: absolute;
+    top: 40%;
+    bottom: 40%;
+    left: 20%;
+    right: 20%;
+    text-align: center;
+}
+.layout-main .error-display.hide {
+    display: none;
+}
+.layout-main .error-display span {
+    display: block;
+}
+.layout-main .error-display span#error-message {
+    font-size: 25px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.layout-main .error-display span#error-time {
+    font-size: 15px;
+    font-weight: normal;
+    color: #ff0000;
+}

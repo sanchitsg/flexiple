@@ -1,0 +1,153 @@
+/* 
+*   CSS for HOME Page.
+*/
+
+/* 1. BASE LAYOUT. */
+.layout-main {
+    background-color: #ffffff;
+}
+
+
+/* 2. PAGE HEADER. */
+.layout-main .header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+}
+.layout-main .header .navbar {
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+}
+.layout-main .header .navbar .navbar-brand {
+    width: 25%;
+    text-align: center;
+}
+.layout-main .header .navbar .navbar-brand img {
+    height: 90px;
+    width: 40%;
+}
+.layout-main .header .navbar .navbar-brand span {
+    color: #ff0000;
+    cursor: not-allowed;
+}
+.layout-main .header .navbar .navbar-brand span.icon {
+    font-size: 75px;
+}
+.layout-main .header .navbar #header-menu {
+    width: 50%;
+    cursor: not-allowed;
+}
+.layout-main .header .navbar #header-menu ul {
+    width: 100%;
+    cursor: not-allowed;
+}
+.layout-main .header .navbar #header-menu ul li {
+    width: 25%;
+    cursor: not-allowed;
+}
+.layout-main .header .navbar #header-menu ul li .nav-link {
+    cursor: not-allowed;
+    text-transform: none;
+}
+.layout-main .header .navbar .navbar-brand.edit:hover {
+    cursor: pointer;
+}
+.layout-main .header .navbar .navbar-brand.edit:hover span {
+    border: 2px solid #ff0000;
+    padding: 20px;
+    cursor: pointer;
+}
+
+
+/* 3. PAGE CONTENT. */
+.layout-main .content {
+    position: relative;
+    top: 100px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 1150px;
+    background-color: #ffffff;
+}
+.layout-main .content .jumbotron {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 500px;
+}
+.layout-main .content .jumbotron img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+.layout-main .content .editable-form {
+    margin: 0;
+    padding: 3% 20% 3% 20%;
+    width: 100%;
+    height: 600px;
+    background-color: lightblue;
+}
+.layout-main .content .editable-form form {
+    border: 3px solid #333333;
+    box-shadow: 10px 5px 2px 0 #333333;
+    border-radius: 1%;
+    padding: 20px;
+}
+.layout-main .content .editable-form form:hover {
+    cursor: not-allowed;
+}
+.layout-main .content .editable-form form input:hover,
+.layout-main .content .editable-form form input:focus {
+    cursor: not-allowed;
+}
+.layout-main .content .editable-form #submit-form-button {
+    height: 40px;
+    width: 150px;
+    background-color: #ffffff;
+    border: 2px solid blue;
+}
+.layout-main .content .editable-form #submit-form-button:hover {
+    background-color: gray;
+    border: 2px solid #ffffff;
+    cursor: not-allowed;
+}
+.layout-main .content .editable-form #edit-form-button {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    height: 40px;
+    width: 250px;
+    background-color: #ffffff;
+    border: 2px solid green;
+}
+.layout-main .content .editable-form #edit-form-button:hover {
+    background-color: green;
+    border: 2px solid #ffffff;
+}
+
+
+/* 4. PAGE FOOTER. */
+.layout-main .footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100px;
+    padding: 35px 30% 35px 30%;
+    background-color: #333333;
+}
+.layout-main .footer p {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.layout-main .footer p#author {
+    padding-left: 70px;
+    color: #ffffff;
+}
